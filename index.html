@@ -1,0 +1,69 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>gpa-calculator</title>
+    <link rel="stylesheet" href="index.css">
+  </head>    
+
+  <body>
+    <h1>GPA Calculator</h1>
+    <div id="container">
+      <div id="columns">
+        <div id="courses">
+          <h3>Courses</h3>
+          <input class="course-field" type="text" placeholder="Course 1" name="courses" size="15" /><br><br>
+          <input class="course-field" type="text" placeholder="Course 2" name="courses" size="15" /><br><br>
+          <input class="course-field" type="text" placeholder="Course 3" name="courses" size="15" /><br><br>
+          <input class="course-field" type="text" placeholder="Course 4" name="courses" size="15" /><br><br>
+          <input class="course-field" type="text" placeholder="Course 5" name="courses" size="15" /><br><br>
+          <input class="course-field" type="text" placeholder="Course 6" name="courses" size="15" /><br><br>
+        </div>  
+
+        <div id="credits">
+          <h3>Credits</h3>
+          <input id="credit-sum1" class="num-field" type="text" name="credits" onmouseout="sumCredits()" /><br><br>
+          <input id="credit-sum2" class="num-field" type="text" name="credits" onmouseout="sumCredits()" /><br><br>
+          <input id="credit-sum3" class="num-field" type="text" name="credits" onmouseout="sumCredits()" /><br><br>
+          <input id="credit-sum4" class="num-field" type="text" name="credits" onmouseout="sumCredits()" /><br><br>
+          <input id="credit-sum5" class="num-field" type="text" name="credits" onmouseout="sumCredits()" /><br><br>
+          <input id="credit-sum6" class="num-field" type="text" name="credits" onmouseout="sumCredits()" /><br><br>
+        </div>  
+        
+        <div id="grades">
+          <h3>Grades</h3>
+          <input id="grade-sum1" class="num-field" type="text" name="grades" /><br><br>
+          <input id="grade-sum2" class="num-field" type="text" name="grades" /><br><br>
+          <input id="grade-sum3" class="num-field" type="text" name="grades" /><br><br>
+          <input id="grade-sum4" class="num-field" type="text" name="grades" /><br><br>
+          <input id="grade-sum5" class="num-field" type="text" name="grades" /><br><br>
+          <input id="grade-sum6" class="num-field" type="text" name="grades" /><br><br>
+        </div>
+
+        <div id="scores">
+          <h3>Scores</h3>
+          <input id="score-output1" class="num-field" type="text" name="scores" /><br><br>
+          <input id="score-output2" class="num-field" type="text" name="scores" /><br><br>
+          <input id="score-output3" class="num-field" type="text" name="scores" /><br><br>
+          <input id="score-output4" class="num-field" type="text" name="scores" /><br><br>
+          <input id="score-output5" class="num-field" type="text" name="scores" /><br><br>
+          <input id="score-output6" class="num-field" type="text" name="scores" /><br><br>
+        </div>
+
+        <input class="button" type="button" value="Add more" />  
+        <input id="credit-sum" type="text" name="credit-sum" /> 
+
+        <input class="button" type="button" value="Calculate" onclick="calculateScore()" />
+        <input id="score-sum" type="text" name="score-sum" /> 
+      </div>
+
+      <hr id="line"></hr>
+
+      <div id="output-field">0</div>
+
+    </div>
+  </body>
+
+  <script src="index.js"></script>  
+
+</html>
