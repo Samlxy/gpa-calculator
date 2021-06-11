@@ -91,3 +91,48 @@ h3 {
   color: white;
   font-size: 40px;
 }
+
+@media only screen and (max-width: 900px) {
+  #container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #213c50;
+    background-color: #213c50;
+    border-radius: 12px;
+    margin: auto;
+  }
+
+  h3 {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .course-field {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .num-field {
+    width: 30px;
+    margin-left: 10px;
+  }
+  
+  .button {
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  
+  .sum-field {
+    width: 30px;
+    margin-left: 10px;
+  }
+  
+  #output-field {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+  }
+}
