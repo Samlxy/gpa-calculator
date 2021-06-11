@@ -65,7 +65,7 @@ h3 {
   cursor: pointer;
 }
 
-#credit-sum {
+.sum-field {
   width: 50px;
   padding: 5px;
   margin-top: 20px;
@@ -73,19 +73,6 @@ h3 {
   font-size: 16px;
   outline: none;
   background-color: #eff0f2;
-  text-align: center;
-  border-radius: 3px;
-  border: 1px solid black;
-}
-
-#score-sum {
-  width: 50px;
-  padding: 5px;
-  margin-top: 20px;
-  margin-left: 80px;
-  background-color: #eff0f2;
-  font-size: 16px;
-  outline: none;
   text-align: center;
   border-radius: 3px;
   border: 1px solid black;
@@ -103,10 +90,4 @@ h3 {
   margin-top: 50px;
   color: white;
   font-size: 40px;
-}
-
-#color-change {
-  margin-left: 730px;
-  margin-top: 20px;
-  padding: 2px 10px;
 }

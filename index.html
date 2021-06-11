@@ -1,8 +1,9 @@
 <!Doctype html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>gpa-calculator</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPA-Calculator</title>
     <link rel="stylesheet" href="index.css">
   </head>    
 
@@ -12,12 +13,12 @@
       <div id="columns">
         <div id="courses">
           <h3>Courses</h3>
-          <input class="course-field" type="text" placeholder="Course 1" name="courses" size="15" /><br><br>
-          <input class="course-field" type="text" placeholder="Course 2" name="courses" size="15" /><br><br>
-          <input class="course-field" type="text" placeholder="Course 3" name="courses" size="15" /><br><br>
-          <input class="course-field" type="text" placeholder="Course 4" name="courses" size="15" /><br><br>
-          <input class="course-field" type="text" placeholder="Course 5" name="courses" size="15" /><br><br>
-          <input class="course-field" type="text" placeholder="Course 6" name="courses" size="15" /><br><br>
+          <input class="course-field" type="text" placeholder="Course 1" size="15" /><br><br>
+          <input class="course-field" type="text" placeholder="Course 2" size="15" /><br><br>
+          <input class="course-field" type="text" placeholder="Course 3" size="15" /><br><br>
+          <input class="course-field" type="text" placeholder="Course 4" size="15" /><br><br>
+          <input class="course-field" type="text" placeholder="Course 5" size="15" /><br><br>
+          <input class="course-field" type="text" placeholder="Course 6" size="15" /><br><br>
         </div>  
 
         <div id="credits">
@@ -32,12 +33,12 @@
         
         <div id="grades">
           <h3>Grades</h3>
-          <input id="grade-sum1" class="num-field" type="text" name="grades" /><br><br>
-          <input id="grade-sum2" class="num-field" type="text" name="grades" /><br><br>
-          <input id="grade-sum3" class="num-field" type="text" name="grades" /><br><br>
-          <input id="grade-sum4" class="num-field" type="text" name="grades" /><br><br>
-          <input id="grade-sum5" class="num-field" type="text" name="grades" /><br><br>
-          <input id="grade-sum6" class="num-field" type="text" name="grades" /><br><br>
+          <input id="grade-sum1" class="num-field" type="text" /><br><br>
+          <input id="grade-sum2" class="num-field" type="text" /><br><br>
+          <input id="grade-sum3" class="num-field" type="text" /><br><br>
+          <input id="grade-sum4" class="num-field" type="text" /><br><br>
+          <input id="grade-sum5" class="num-field" type="text" /><br><br>
+          <input id="grade-sum6" class="num-field" type="text" /><br><br>
         </div>
 
         <div id="scores">
@@ -51,10 +52,9 @@
         </div>
 
         <input class="button" type="button" value="Add more" />  
-        <input id="credit-sum" type="text" name="credit-sum" /> 
-
+        <input id="credit-sum"  class="sum-field" type="text" /> 
         <input class="button" type="button" value="Calculate" onclick="calculateScore()" />
-        <input id="score-sum" type="text" name="score-sum" /> 
+        <input id="score-sum" class="sum-field" type="text" /> 
       </div>
 
       <hr id="line"></hr>
