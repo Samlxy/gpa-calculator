@@ -13,7 +13,7 @@ h1 {
 }
 
 h3 {
-  margin-left: 80px;
+  margin-left: 60px;
   color: white;
 }
 
@@ -41,7 +41,7 @@ h3 {
 .num-field {
   width: 50px;
   padding: 5px;
-  margin-left: 80px;
+  margin-left: 60px;
   font-size: 16px;
   text-align: center;
   color: #213c50;
@@ -57,7 +57,6 @@ h3 {
 
 .button {
   width: 100px;
-  padding: 5px;
   color: #213c50;
   margin-top: 20px;
   margin-left: 60px;
@@ -70,7 +69,7 @@ h3 {
   width: 50px;
   padding: 5px;
   margin-top: 20px;
-  margin-left: 80px;
+  margin-left: 60px;
   font-size: 16px;
   outline: none;
   color: #213c50;
@@ -89,55 +88,67 @@ h3 {
 
 #output-field {
   text-align: center;
-  margin-top: 50px;
+  padding-top: 50px;
   color: white;
   font-size: 40px;
 }
 
-@media only screen and (max-width: 1020px) {
+/* Medium Sizes */
+@media only screen and (max-width: 1200px) {
+  #container {
+    width: 50%;
+  }
+
+  h3 {
+    margin-left: 30px;
+  }
+  
+  .course-field {
+    margin-left: 30px;
+  }
+  
+  .num-field {
+    margin-left: 30px;
+  }
+  
+  .button {
+    margin-left: 30px;
+  }
+  
+  .sum-field {
+    margin-left: 30px;
+  }
+}
+
+/* Small Sizes */
+@media only screen and (max-width: 1024px) {
   #container {
     width: 100%;
-    height: 100%;
-    border: 1px solid #213c50;
-    background-color: #213c50;
-    border-radius: 12px;
-    margin: auto;
+    height: 650px;
   }
 
   h3 {
     margin-left: 10px;
-    font-size: 12px;
   }
   
   .course-field {
-    width: 100px;
-    padding: 5px;
     margin-left: 10px;
   }
   
   .num-field {
-    width: 30px;
-    margin-left: 5px;
-  }
-  
-  .button {
-    width: 70px;
-    padding: 1px 5px;
-    margin-top: 10px;
-    margin-left: 8px;
-    font-size: 13px;
-    border-radius: 3px;
-  }
-  
-  .sum-field {
-    width: 30px;
     margin-left: 10px;
   }
   
-  #output-field {
-    text-align: center;
-    margin-top: 15px;
-    color: white;
-    font-size: 40px;
+  .button {
+    margin-left: 10px;
   }
+  
+  .sum-field {
+    margin-left: 10px;
+  }
+
+  #output-field {
+    padding-top: 70px;
+  }
+
 }
