@@ -129,27 +129,27 @@ h3 {
 
   h3 {
     margin-left: 10px;
-    font-size: 14px;
+    font-size: 13px;
   }
   
   .course-field {
     width: 120px;
-    margin-left: 5x;
+    margin-left: 10px;
   }
   
   .num-field {
     width: 30px;
-    margin-left: 5px;
+    margin-left: 10px;
   }
   
   .button {
-    width: 50px;
+    width: 60px;
     font-size: 14px;
-    margin-left: 5px;
+    margin-left: 10px;
   }
   
   .sum-field {
     width: 30px;
-    margin-left: 5px;
+    margin-left: 10px;
   }
 }
